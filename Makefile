@@ -13,13 +13,16 @@ BUILDDIR      = ../gh-pages
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-buildcommithtml: html
-	cd $(BUILDDIR)/html
-	git add .
-	git commit -m "Rebuilt docs"
-	git push origin master
+clean:
+	@echo "target has been disabled."
 
-.PHONY: help buildcommithtml Makefile
+buildcommithtml: html
+	@cd $(BUILDDIR)/html
+	@git add .
+	@git commit -m "Rebuilt docs"
+	@git push origin master
+
+.PHONY: help clean buildcommithtml Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
