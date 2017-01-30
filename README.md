@@ -15,9 +15,11 @@ Then, in the *local* 'sphinx-doc', the command
 
     [.../sphinx-doc]$ make html
 
-builds new .html-pages into ../gh-pages/html.  In order to build *and* upload the changes use
+builds new `.html`-pages into `../gh-pages/html`.  
+
+In order to build *and* upload changes use
 
     [.../sphinx-doc]$ make buildcommithtml
 
-This will invoke sphinx-build, and will do a git commit; git push inside .../gh-pages/html in
-one go.
+This will invoke sphinx-build, and will do a git commit; git push inside `../gh-pages/html` 
+in one go.
