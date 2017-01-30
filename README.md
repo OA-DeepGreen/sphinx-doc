@@ -1,1 +1,1 @@
-# shinx-doc
+# sphinx-doc
