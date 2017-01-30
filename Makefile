@@ -7,7 +7,7 @@ SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = DeepGreen
 SOURCEDIR     = .
 # BUILDDIR      = _build
-BUILDDIR      = ..
+BUILDDIR      = ../gh-pages
 
 # Put it first so that "make" without argument is like "make help".
 help:
