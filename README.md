@@ -21,5 +21,5 @@ In order to build *and* upload changes use
 
     [.../sphinx-doc]$ make buildcommithtml
 
-This will invoke sphinx-build, and will do a git commit; git push inside `../gh-pages/html` 
-in one go.
+This will invoke `sphinx-build` (as above), and will do additionally `git commit; git push` 
+inside `../gh-pages/html` in one go.
