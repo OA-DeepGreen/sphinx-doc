@@ -17,9 +17,7 @@ clean:
 	@echo "target has been disabled."
 
 buildcommithtml: html
-	@cd $(BUILDDIR)/html
-	@git commit -a -m "Rebuilt docs"
-	@git push origin master
+	@cd $(BUILDDIR)/html; git commit -a -m "Rebuilt docs"; git push origin master
 
 .PHONY: help clean buildcommithtml Makefile
 
