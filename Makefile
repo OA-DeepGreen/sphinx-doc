@@ -18,8 +18,7 @@ clean:
 
 buildcommithtml: html
 	@cd $(BUILDDIR)/html
-	@git add .
-	@git commit -m "Rebuilt docs"
+	@git commit -a -m "Rebuilt docs"
 	@git push origin master
 
 .PHONY: help clean buildcommithtml Makefile
