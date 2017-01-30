@@ -109,7 +109,7 @@ Abhängig davon, wie es in der Konfigurationsdatei (lokal ``jper: ./local.cfg`` 
 ``jper: config/service.py``) angegeben ist, werden ``unrouted`` Notifikationen gelöscht, falls
 der Zuordungsversuch erfolgreich war (``DETETE_ROUTED=True``) oder falls der Zuordungsversuch
 nicht erfolgreich war (``DELETE_UNROUTED=True``).  Bei den entsprechend anderen Setzungen der 
-beiden Schalter (``DELETE_ROUTED``, ``DELETED_UNROUTED``) wird entsprechend nicht *sofort* nach
+beiden Schalter (``DELETE_ROUTED``, ``DELETE_UNROUTED``) wird entsprechend nicht *sofort* nach
 dem Zuordnungsversuch die Notifikation gelöscht.
 
 Darüberhinaus gibt es noch einen Löschmechanismus für ``routed`` Notifikationen, die eine
