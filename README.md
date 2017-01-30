@@ -11,7 +11,9 @@ with the folder name 'html', i.e.
     [...]$ cd gh-pages
     [.../gh-pages]$ git clone git@github.com:OA-DeepGreen/oa-deepgreen.github.io html
 
-Then, in the *local* 'sphinx-doc', the command
+## Usage
+
+In the *local* 'sphinx-doc', the command
 
     [.../sphinx-doc]$ make html
 
